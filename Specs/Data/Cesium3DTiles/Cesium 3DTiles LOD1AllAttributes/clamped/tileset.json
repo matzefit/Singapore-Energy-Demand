@@ -1,0 +1,250 @@
+{
+	"asset" : {
+		"version" : "0.0"
+	},
+	"properties" : {
+		"gml_id" : {},
+		"citygml_target_uri" : {},
+		"gml_description" : {},
+		"gml_name" : {},
+		"citygml_city_object_member{}.xlink_href" : {},
+		"citygml_appearance_member{}.xlink_href" : {},
+		"gml_feature_member{}.xlink_href" : {},
+		"gml_parent_id" : {},
+		"citygml_interior_building_installation{}.xlink_href" : {},
+		"citygml_creationDate" : {},
+		"citygml_terminationDate" : {},
+		"citygml_level_of_detail{}" : {},
+		"citygml_storey_heights_above_ground" : {},
+		"citygml_feature_role" : {},
+		"citygml_roof_type" : {},
+		"citygml_relative_to_terrain" : {},
+		"citygml_address{}.xlink_href" : {},
+		"citygml_function{}" : {},
+		"externalReference{}.externalObject.uri" : {},
+		"citygml_consists_of_building_part{}.xlink_href" : {},
+		"citygml_outer_building_installation{}.xlink_href" : {},
+		"citygml_roof_type_codeSpace" : {},
+		"citygml_usage{}.codeSpace" : {},
+		"citygml_year_of_demolition" : {},
+		"citygml_interior_room{}.xlink_href" : {},
+		"citygml_storey_heights_below_ground" : {},
+		"citygml_function{}.codeSpace" : {},
+		"citygml_opening{}.xlink_href" : {},
+		"citygml_storey_heights_above_ground_units" : {},
+		"citygml_storeys_above_ground" : {},
+		"citygml_measured_height" : {
+			"minimum" : 2.23,
+			"maximum" : 57.3
+		},
+		"citygml_feature_role_attr_val" : {},
+		"citygml_measured_height_units" : {},
+		"citygml_class_codeSpace" : {},
+		"externalReference{}.externalObject.name" : {},
+		"citygml_storey_heights_below_ground_units" : {},
+		"citygml_usage{}" : {},
+		"citygml_class" : {},
+		"citygml_feature_role_attr_name" : {},
+		"citygml_year_of_construction" : {},
+		"externalReference{}.informationSystem" : {},
+		"citygml_bounded_by{}.xlink_href" : {},
+		"citygml_appearance{}.xlink_href" : {},
+		"citygml_address" : {},
+		"citygml_storeys_below_ground" : {},
+		"citygml_generalizes_to{}.xlink_href" : {},
+		"citygml_relative_to_water" : {},
+		"ALKIS code" : {},
+		"April Cooling Demand _kWh_" : {},
+		"Attic Heating" : {},
+		"August Cooling Demand _kWh_" : {},
+		"Average Storey Height" : {},
+		"Basement ceiling height above ground" : {},
+		"Basement Heating" : {},
+		"BuildingType" : {},
+		"Class" : {},
+		"December Cooling Demand _kWh_" : {},
+		"Eaves/mean Height _m_" : {},
+		"February Cooling Demand _kWh_" : {},
+		"Footprint area _m2_" : {},
+		"GMLId" : {},
+		"Gross volume _m3_" : {},
+		"Heated area _m2_" : {},
+		"Heated volume _m3_" : {},
+		"Is Gross volume approximated?" : {},
+		"January Cooling Demand _kWh_" : {},
+		"July Cooling Demand _kWh_" : {},
+		"June Cooling Demand _kWh_" : {},
+		"LOD" : {},
+		"March Cooling Demand _kWh_" : {},
+		"May Cooling Demand _kWh_" : {},
+		"Mean Uvalue _W/m2.K_" : {},
+		"November Cooling Demand _kWh_" : {},
+		"October Cooling Demand _kWh_" : {},
+		"ParentGMLId" : {},
+		"PrimaryUsageZoneArea" : {},
+		"PrimaryUsageZoneType" : {},
+		"Refurbishment Variant" : {},
+		"Ridge/mean Height _m_" : {},
+		"SA2V ratio _m-1_" : {},
+		"SecondaryUsageZoneArea" : {},
+		"SecondaryUsageZoneType" : {},
+		"September Cooling Demand _kWh_" : {},
+		"Specific domestic hot water demand _kWh/m2.yr_" : {},
+		"SpecificspaceCoolingdemand" : {
+			"minimum" : 0,
+			"maximum" : 832.2
+		},
+		"Storey number" : {},
+		"Total outwall area _m2_" : {},
+		"Total roof area _m2_" : {},
+		"Total sharedwall area _m2_" : {},
+		"Total wall thermal area above ground _m2_" : {},
+		"Total wall thermal area below ground _m2_" : {},
+		"X-coordinate" : {},
+		"xlsx_header_row" : {},
+		"xlsx_schema_end_col" : {},
+		"xlsx_schema_end_row" : {},
+		"xlsx_schema_start_col" : {},
+		"xlsx_schema_start_row" : {},
+		"Y-coordinate" : {},
+		"Year of construction" : {},
+		"Yearly Cooling demand _kWh/yr_" : {},
+		"_matched_records" : {}
+	},
+	"geometricError" : 217.88758608372882,
+	"root" : {
+		"boundingVolume" : {
+			"box" : [ -1524541.8149427632, 6191236.420257986, 158160.11703016143, 1510.4554206866305, 0, 0, 0, 412.58142607007176, 0, 0, 0, 1622.7505789653806 ]
+		},
+		"geometricError" : 174.54384285444394,
+		"refine" : "add",
+		"content" : {
+			"boundingVolume" : {
+				"box" : [ -1524558.0686430717, 6191235.353838517, 158140.5420175112, 1477.9480200693943, 0, 0, 0, 410.4485871344805, 0, 0, 0, 1583.6005536649027 ]
+			},
+			"url" : "data/data0.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"box" : [ -1524570.4366445367, 6191244.314280039, 158022.44760171382, 218.94432354345918, 0, 0, 0, 97.58173553273082, 0, 0, 0, 1293.9082456836768 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524570.4366445367, 6191244.314280039, 158022.44760171382, 218.94432354345918, 0, 0, 0, 97.58173553273082, 0, 0, 0, 1293.9082456836768 ]
+					},
+					"url" : "data/data1.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524162.0587316686, 6191332.203434942, 158158.9977193066, 224.80192800983787, 0, 0, 0, 97.3170186104253, 0, 0, 0, 1428.611749857897 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524162.0587316686, 6191332.203434942, 158158.9977193066, 224.80192800983787, 0, 0, 0, 97.3170186104253, 0, 0, 0, 1428.611749857897 ]
+					},
+					"url" : "data/data2.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524420.7540271296, 6191270.909634756, 158162.79619195862, 212.1548782370519, 0, 0, 0, 109.04806755017489, 0, 0, 0, 1617.392255371029 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524420.7540271296, 6191270.909634756, 158162.79619195862, 212.1548782370519, 0, 0, 0, 109.04806755017489, 0, 0, 0, 1617.392255371029 ]
+					},
+					"url" : "data/data3.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524296.3369672415, 6191302.77358532, 158135.66727073537, 202.28194020781666, 0, 0, 0, 102.08860467374325, 0, 0, 0, 1520.9076865858224 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524296.3369672415, 6191302.77358532, 158135.66727073537, 202.28194020781666, 0, 0, 0, 102.08860467374325, 0, 0, 0, 1520.9076865858224 ]
+					},
+					"url" : "data/data4.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524100.6072431656, 6191331.354022338, 158311.94102565612, 57.805048720445484, 0, 0, 0, 25.52515214495361, 0, 0, 0, 1019.6798762390681 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524100.6072431656, 6191331.354022338, 158311.94102565612, 57.805048720445484, 0, 0, 0, 25.52515214495361, 0, 0, 0, 1019.6798762390681 ]
+					},
+					"url" : "data/data5.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1523902.398770114, 6191392.206390774, 158199.00981871597, 231.62307538860478, 0, 0, 0, 101.00916049163789, 0, 0, 0, 1062.0951779349125 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1523902.398770114, 6191392.206390774, 158199.00981871597, 231.62307538860478, 0, 0, 0, 101.00916049163789, 0, 0, 0, 1062.0951779349125 ]
+					},
+					"url" : "data/data6.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524876.8308816953, 6191161.349688787, 157984.76476661948, 260.7046331495512, 0, 0, 0, 83.78506917506456, 0, 0, 0, 1267.168280117592 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524876.8308816953, 6191161.349688787, 157984.76476661948, 260.7046331495512, 0, 0, 0, 83.78506917506456, 0, 0, 0, 1267.168280117592 ]
+					},
+					"url" : "data/data7.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524054.0261475993, 6191358.309284398, 158199.8822955108, 173.55820144270547, 0, 0, 0, 93.44424998108298, 0, 0, 0, 1239.6851291336352 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524054.0261475993, 6191358.309284398, 158199.8822955108, 173.55820144270547, 0, 0, 0, 93.44424998108298, 0, 0, 0, 1239.6851291336352 ]
+					},
+					"url" : "data/data8.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1525079.2041956112, 6191099.692346461, 158264.9037339806, 350.11707301065326, 0, 0, 0, 122.73502282705158, 0, 0, 0, 880.9394987983105 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1525079.2041956112, 6191099.692346461, 158264.9037339806, 350.11707301065326, 0, 0, 0, 122.73502282705158, 0, 0, 0, 880.9394987983105 ]
+					},
+					"url" : "data/data9.b3dm"
+				}
+			},
+			{
+				"boundingVolume" : {
+					"box" : [ -1524636.129384991, 6191221.071741857, 158028.74825042376, 122.08517188951373, 0, 0, 0, 75.58116878475994, 0, 0, 0, 1295.1930344212742 ]
+				},
+				"refine" : "add",
+				"content" : {
+					"boundingVolume" : {
+						"box" : [ -1524636.129384991, 6191221.071741857, 158028.74825042376, 122.08517188951373, 0, 0, 0, 75.58116878475994, 0, 0, 0, 1295.1930344212742 ]
+					},
+					"url" : "data/data10.b3dm"
+				}
+			}
+		]
+	}
+}

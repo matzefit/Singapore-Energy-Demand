@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
+    <meta name='description' content=' 3D Tiles Demo'>
+    <title>Yishun Cooling Energy Demand</title>
+    <link rel="icon" href='/images/LogoSimstadt.png'>
+    <link rel="stylesheet" type="text/css" href="css/hardstyle.css">
+    <link rel="stylesheet" type="text/css" href="/ThirdParty/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='/Build/Cesium/Cesium.js'></script>
+    <script src='/ThirdParty/apexcharts-bundle/dist/apexcharts.min.js'></script>
+    <script src='/ThirdParty/Bootstrap/js/bootstrap.min.js'></script>
+    <script src='/ThirdParty/Bootstrap/js/bootstrap.bundle.min.js'></script>
+</head>
+
+<body>
+    <div id='cesiumContainer' class='fullSize'></div>
+    <!--
+    <nav class="navbar navbar-light bg-light" id='Navbar'>
+
+        <a class='navbar-brand'>Singapore Cooling Energy Demand</a>
+        <a href='https://www.sla.gov.sg/' target="_blank"><img src='/images/SLA-Logo.png' height='50px' /></a>
+
+    </nav>
+-->
+
+    <div class='userInterface'>
+        <h4 id='userInterfaceTitle'>Cooling Energy Demand</h4>
+        <h5>Singapore</h5>
+        <hr color='white'>
+        <p>
+            <button class="btn btn-secondary" type="button" data-toggle="tooltip" title='Resets View' aria-expanded="false" aria-controls="collapseExample" id='histogrambutton' onclick='zoomToTileset()'>
+                <i class="fas fa-home"></i>
+            </button>
+            <button id='histogrambutton' class="btn btn-secondary" type="button" data-toggle="tooltip" title='Shows a graph of monthly cooling energy demand' onclick="showTable()">Monthly Chart <i class="fas fa-chart-line"></i></button>
+            <button type="button" class="btn btn-secondary" id='histogrambutton' data-toggle="tooltip" title='Not Functional! Exports the visible CityGML File with EnergyADE extension'>
+                Export <i class="fas fa-download"></i>
+            </button>
+        </p>
+        <hr color='white'>
+        <h5>Level of Detail <i class="fas fa-angle-up rotate" data-toggle="collapse" data-target="#LODSwitchContainer" aria-expanded="false"></i></h5>
+        <div class="collapse" id='LODSwitchContainer'>
+            <div class="custom-control custom-switch" id='LODSwitch'>
+                <label>LOD 1</label>
+                <label class="switch">
+                    <input type="checkbox" id='LODSwitchinput' checked>
+                    <span class="slider round"></span>
+                </label>
+                <label>LOD 2</label>
+
+
+            </div>
+        </div>
+        <hr color='white'>
+        <h5>Switch Theme <i class="fas fa-angle-up rotate" data-toggle="collapse" data-target="#ThemeSwitchContainer" aria-expanded="false"></i></h5>
+        <div class='collapse' id='ThemeSwitchContainer'>
+            <!-- Default unchecked -->
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="defaultUnchecked" name="ThemeRadio" onclick='NormalTheme()'>
+                <label class="custom-control-label" for="defaultUnchecked" onclick='NormalTheme'>Normal Theme</label>
+            </div>
+
+            <!-- Default checked -->
+            <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="defaultChecked" name="ThemeRadio" onclick='CoolingTheme()' checked>
+                <label class="custom-control-label" for="defaultChecked">Cooling Theme</label>
+            </div>
+
+
+        </div>
+
+        <div id=legend>
+            <hr color='white'>
+            <h5>Legend <i class="fas fa-angle-up rotate" data-toggle="collapse" data-target="#legendcontainer" aria-expanded="false"></i></h5>
+            <div class='my-legend collapse' id="legendcontainer">
+                <div class='legend-title'>Energy Demand in kW/h/m^2</div>
+                <div class='legend-scale'>
+                    <ul class='legend-labels'>
+                        <li><span style='background:#33ACFF;'></span>0 - 60</li>
+                        <li><span style='background:#2AFF00;'></span>60 - 120</li>
+                        <li><span style='background:#FFFF00;'></span>120-170</li>
+                        <li><span style='background:#FFA200;'></span>170-230</li>
+                        <li><span style='background:#FF0000;'></span>>230</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="chartcontainer" style="visibility: hidden;">
+        <button type="button" class="cesium-infoBox-close" aria-label="Close" onclick="showTable()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <div id="chart"></div>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" id="histogrambutton" aria-expanded="false" aria-controls="collapseExample">More Details
+            <i class="fas fa-info-circle"></i>
+        </button>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body" id="AddInfos">
+                Select a building to show Info's
+            </div>
+        </div>
+    </div>
+    <a href="http://www.simstadt.eu/de/index.jsp" target='_blank'>
+        <div class="creditContainer2"></div>
+    </a>
+    <a href="https://www.sla.gov.sg/" target='_blank'>
+        <div class="creditContainer"></div>
+    </a>
+    <script src='/JS/MyJavascript.js'></script>
+</body>
+
+</html>
